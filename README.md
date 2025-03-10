@@ -2,7 +2,7 @@
 
 graphics_composer = graphic + windows manager + mouse + input + protocol
 
-致力于打造一个可以简单重复利用的 graphics_composer 中间模块
+致力于打造一个可以简单重复利用的 graphics_composer 中间模块，方便在各种系统中集成和使用。
 
 #### 组成部分
 graphic
@@ -23,7 +23,4 @@ protocol
 VR
 .... 后续可能会扩展支持 VR
 
-#### 设计理念
-本项目的设计核心就是将各个模块按如下方式组合：
-graphics_composer = graphic + windows manager + mouse + input + protocol
-目标是打造一个简单、灵活且可重复利用的中间模块，方便在各种系统中集成和使用。
+
